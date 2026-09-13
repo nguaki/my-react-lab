@@ -1,0 +1,70 @@
+.profile-card {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 16px;
+  background-color: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+  max-width: 400px;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+  font-family: system-ui, sans-serif;
+}
+
+.avatar-container {
+  position: relative;
+  width: 56px;
+  height: 56px;
+}
+
+.avatar-img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+  background-color: #f1f5f9;
+}
+
+.status-badge {
+  position: absolute;
+  bottom: 2px;
+  right: 2px;
+  width: 12px;
+  height: 12px;
+  background-color: #22c55e; /* Vibrant Green */
+  border: 2px solid #ffffff;
+  border-radius: 50%;
+}
+
+.profile-info {
+  flex-grow: 1;
+}
+
+.profile-name {
+  margin: 0 0 4px 0;
+  font-size: 16px;
+  font-weight: 600;
+  color: #0f172a;
+}
+
+.profile-role {
+  margin: 0;
+  font-size: 14px;
+  color: #64748b;
+}
+
+.message-btn {
+  padding: 8px 14px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #0f172a;
+  background-color: #f1f5f9;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.message-btn:hover {
+  background-color: #e2e8f0;
+}
